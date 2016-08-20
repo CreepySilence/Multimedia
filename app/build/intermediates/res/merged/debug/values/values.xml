@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_instruments">
+    <item>Sin Wave</item>
+    <item>Instrument 1</item>
+    <item>Instrument 2</item>
+</string-array>
+    <color name="ustblue">#003366</color>
+    <color name="ustgold">#996600</color>
+    <color name="yellow">#FFFF00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="Welcome">Welcome to\nDepartment of \nComputer Science\n and Engineering</string>
+    <string name="app_name">Recording Mode </string>
+</resources>

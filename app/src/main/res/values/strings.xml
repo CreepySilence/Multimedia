@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+<string name="app_name">Recording Mode </string>
+<string name="Welcome">Welcome to\nDepartment of \nComputer Science\n and Engineering</string>
+<string-array name="menu_instruments">
+    <item>Sin Wave</item>
+    <item>Instrument 1</item>
+    <item>Instrument 2</item>
+</string-array>
+</resources>

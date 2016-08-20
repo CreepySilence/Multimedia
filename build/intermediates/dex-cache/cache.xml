@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\CSIT5110Project_v2\app\src\main\java\lib\TarsosDSP-Android-2.0-bin.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1e716281db210fc3ef4ed201056ac50490cd706b">
+        <dex dex="F:\CSIT5110Project_v2\app\build\intermediates\pre-dexed\debug\TarsosDSP-Android-2.0-bin-92b757cb9c062e25b68a39c66ce7f687addb7c25.jar" />
+    </item>
+    <item
+        jar="C:\Users\Pan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="F:\CSIT5110Project_v2\app\build\intermediates\pre-dexed\debug\gson-2.4-f6d714bbdc950850347303fe93efd5156e2ce245.jar" />
+    </item>
+
+</items>

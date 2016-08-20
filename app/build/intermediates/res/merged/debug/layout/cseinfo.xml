@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/ustblue"
+    android:id="@+id/cseinfoscreen"
+    >
+
+    <RelativeLayout
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="2" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@color/android:black"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxHeight="10px"
+        android:src="@drawable/tape" />
+     <ProgressBar
+            android:id="@+id/loadingbar"
+            style="android:attr/progressBarStyleHorizontal"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+         android:background="@color/android:transparent"
+         android:layout_alignParentRight="true"
+         android:gravity="right|top"
+            android:max="500"
+            android:progress="0"
+         android:visibility="invisible"
+            android:progressDrawable="@drawable/circular" />
+    <EditText
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/android:black"
+        android:text="00:00"
+        android:textColor="@color/android:white" android:editable="false"
+        android:cursorVisible="false" android:typeface="monospace" android:visibility="invisible">
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>
+
+<RelativeLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal" >
+
+    <Button
+        android:id="@+id/button_recstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/recbtn" />
+
+    <Button
+        android:id="@+id/button_library"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/libbtn" />
+    <Button
+        android:id="@+id/button_ready"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ready" />
+
+</RelativeLayout>
+	
+</LinearLayout>	
